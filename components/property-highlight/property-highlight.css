@@ -1,0 +1,60 @@
+.property_highlight {
+    max-width: 1200px;
+    margin: 100px auto;
+    min-width: 1000px;
+    border: 1px solid #EAECF0;
+}
+
+.property_highlight_header {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.property_highlight_header_text {
+    font-size: 20px;
+    color: #7261FF;
+    flex: 1;
+    font-family: 600;
+}
+
+.property_highlight_header_cta {
+    padding: 14px 18px;
+    background-color: #7261FF;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.property_highlight_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #EAECF0;
+    cursor: grab;
+}
+
+.property_highlight_item_input {
+    padding: 6px 10px;
+    flex: 1;
+    margin: 20px 10px;
+}
+
+.property_highlight_delete {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.draggable_icon_container {
+    padding: 20px 18px;
+}
+
+.property_highlight_delete {
+    padding: 20px 18px;
+}
